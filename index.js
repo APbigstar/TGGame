@@ -8,7 +8,7 @@ bot.on("message", (msg) => {
   const messageText = msg.text;
 
   if (messageText === "/start") {
-    const gameUrl = "t.me/candy_tg_game_bot/climbing";
+    const gameUrl = "t.me/candy_tg_game_bot/duck_playing_game";
     const keyboard = {
       inline_keyboard: [
         [
